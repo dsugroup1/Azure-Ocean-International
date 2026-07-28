@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
-      <PageHero 
+      <PageHero
         title={
           <>
             LOGISTICS WITH<br />A CLEARER DIRECTION.
@@ -19,14 +19,14 @@ export default function AboutPage() {
         }
         subtitle="Azure Ocean International is a New Delhi-based freight forwarding business focused on supporting cross-border movement and global coordination requirements."
       />
-      
+
       {/* Introduction */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
             <div>
               <SectionLabel variant="cyan" className="mb-6">WHO WE ARE</SectionLabel>
-              <h2 
+              <h2
                 className="text-3xl md:text-4xl font-display uppercase tracking-tight text-[#0F172A] leading-tight mb-8"
                 style={{ fontFamily: 'var(--font-syne)' }}
               >
@@ -41,10 +41,10 @@ export default function AboutPage() {
                 </p>
               </div>
             </div>
-            
+
             <div>
               <SectionLabel variant="cyan" className="mb-6">OUR APPROACH</SectionLabel>
-              <h2 
+              <h2
                 className="text-3xl md:text-4xl font-display uppercase tracking-tight text-[#0F172A] leading-tight mb-8"
                 style={{ fontFamily: 'var(--font-syne)' }}
               >
@@ -52,7 +52,7 @@ export default function AboutPage() {
               </h2>
               <div className="prose prose-slate lg:prose-lg text-slate-600">
                 <p>
-                  We do not believe in unnecessarily complex supply-chain terminology. We believe in clear communication and responsible execution. 
+                  We do not believe in unnecessarily complex supply-chain terminology. We believe in clear communication and responsible execution.
                 </p>
                 <p>
                   Whether it is coordinating a single ocean freight shipment from China or structuring a multi-leg international distribution requirement to Indonesia, we approach every task with the same commitment to operational clarity.
@@ -67,7 +67,7 @@ export default function AboutPage() {
       <section className="py-24 bg-[#F8FAFC] border-y border-slate-200">
         <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-16">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-24">
-            
+
             <div className="bg-white p-12 rounded-sm shadow-sm border border-slate-100 relative overflow-hidden">
               {/* Decorative graphic */}
               <div className="absolute top-0 right-0 w-32 h-32 bg-[#F0F9FF] rounded-bl-full opacity-50" aria-hidden="true" />
@@ -79,13 +79,13 @@ export default function AboutPage() {
 
             <div className="bg-[#061826] p-12 rounded-sm shadow-xl relative overflow-hidden text-white">
               {/* Decorative graphic */}
-               <div className="absolute top-0 right-0 w-32 h-32 bg-[#0A2438] rounded-bl-full opacity-50" aria-hidden="true" />
+              <div className="absolute top-0 right-0 w-32 h-32 bg-[#0A2438] rounded-bl-full opacity-50" aria-hidden="true" />
               <SectionLabel variant="light" className="mb-6">OUR VISION</SectionLabel>
               <p className="text-2xl md:text-3xl text-white leading-relaxed font-medium relative z-10" style={{ fontFamily: 'var(--font-syne)' }}>
                 &quot;To build an international logistics brand recognized for cross-border clarity, responsibility and dependable global business relationships.&quot;
               </p>
             </div>
-            
+
           </div>
         </div>
       </section>
@@ -95,7 +95,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-16">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <SectionLabel variant="cyan" className="mb-6 justify-center">OUR VALUES</SectionLabel>
-            <h2 
+            <h2
               className="text-4xl md:text-5xl font-display uppercase tracking-tight text-[#0F172A] leading-tight"
               style={{ fontFamily: 'var(--font-syne)' }}
             >
@@ -113,13 +113,13 @@ export default function AboutPage() {
               { num: '06', title: 'BUSINESS FOCUS', desc: 'Prioritizing solutions that support our clients\' commercial goals.' },
             ].map((value, i) => (
               <div key={i} className="group p-8 border border-slate-200 rounded-sm hover:border-[#0284C7] hover:shadow-lg transition-all duration-300">
-                <span 
+                <span
                   className="block text-4xl text-[#E0F2FE] group-hover:text-[#22D3EE] font-bold mb-4 transition-colors"
                   style={{ fontFamily: 'var(--font-syne)' }}
                 >
                   {value.num}
                 </span>
-                <h3 
+                <h3
                   className="text-xl font-display uppercase tracking-wide text-[#0F172A] mb-3"
                   style={{ fontFamily: 'var(--font-syne)' }}
                 >

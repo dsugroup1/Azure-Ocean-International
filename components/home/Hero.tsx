@@ -57,12 +57,12 @@ export default function Hero() {
       {/* Container geometry decorations */}
       <div className="absolute top-24 right-0 w-[40vw] h-[40vw] max-w-xl max-h-xl opacity-[0.06] pointer-events-none" aria-hidden="true">
         <svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
-          <rect x="20" y="20" width="360" height="100" rx="4" stroke="#22D3EE" strokeWidth="1"/>
-          <rect x="20" y="140" width="360" height="100" rx="4" stroke="#22D3EE" strokeWidth="1"/>
-          <rect x="20" y="260" width="360" height="100" rx="4" stroke="#22D3EE" strokeWidth="1"/>
-          <line x1="100" y1="20" x2="100" y2="360" stroke="#22D3EE" strokeWidth="0.5" strokeDasharray="4 4"/>
-          <line x1="200" y1="20" x2="200" y2="360" stroke="#22D3EE" strokeWidth="0.5" strokeDasharray="4 4"/>
-          <line x1="300" y1="20" x2="300" y2="360" stroke="#22D3EE" strokeWidth="0.5" strokeDasharray="4 4"/>
+          <rect x="20" y="20" width="360" height="100" rx="4" stroke="#22D3EE" strokeWidth="1" />
+          <rect x="20" y="140" width="360" height="100" rx="4" stroke="#22D3EE" strokeWidth="1" />
+          <rect x="20" y="260" width="360" height="100" rx="4" stroke="#22D3EE" strokeWidth="1" />
+          <line x1="100" y1="20" x2="100" y2="360" stroke="#22D3EE" strokeWidth="0.5" strokeDasharray="4 4" />
+          <line x1="200" y1="20" x2="200" y2="360" stroke="#22D3EE" strokeWidth="0.5" strokeDasharray="4 4" />
+          <line x1="300" y1="20" x2="300" y2="360" stroke="#22D3EE" strokeWidth="0.5" strokeDasharray="4 4" />
         </svg>
       </div>
 
@@ -85,11 +85,11 @@ export default function Hero() {
             fill="none"
           />
           {/* Waypoints */}
-          <circle cx="400" cy="150" r="4" fill="#22D3EE" opacity="0.6"/>
-          <circle cx="720" cy="100" r="4" fill="#22D3EE" opacity="0.6"/>
-          <circle cx="1080" cy="70" r="4" fill="#22D3EE" opacity="0.6"/>
-          <circle cx="1440" cy="50" r="6" fill="#22D3EE" opacity="0.9"/>
-          <circle cx="1440" cy="50" r="3" fill="#22D3EE"/>
+          <circle cx="400" cy="150" r="4" fill="#22D3EE" opacity="0.6" />
+          <circle cx="720" cy="100" r="4" fill="#22D3EE" opacity="0.6" />
+          <circle cx="1080" cy="70" r="4" fill="#22D3EE" opacity="0.6" />
+          <circle cx="1440" cy="50" r="6" fill="#22D3EE" opacity="0.9" />
+          <circle cx="1440" cy="50" r="3" fill="#22D3EE" />
         </svg>
       </div>
 
