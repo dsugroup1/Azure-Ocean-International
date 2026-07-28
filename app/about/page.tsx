@@ -17,7 +17,7 @@ export default function AboutPage() {
             LOGISTICS WITH<br />A CLEARER DIRECTION.
           </>
         }
-        subtitle="Azure Ocean International is a New Delhi-based logistics business focused on supporting the movement and coordination requirements of businesses."
+        subtitle="Azure Ocean International is a New Delhi-based freight forwarding business focused on supporting cross-border movement and global coordination requirements."
       />
       
       {/* Introduction */}
@@ -34,7 +34,7 @@ export default function AboutPage() {
               </h2>
               <div className="prose prose-slate lg:prose-lg text-slate-600">
                 <p>
-                  Azure Ocean International was established with a straightforward premise: logistics should support business, not complicate it. Based in New Delhi, we provide structured transportation and freight coordination services designed around practical operational realities.
+                  Azure Ocean International was established with a straightforward premise: international trade logistics should support business, not complicate it. Based in New Delhi, we provide structured global freight forwarding and cross-border coordination services designed around practical operational realities across the Asian market.
                 </p>
                 <p>
                   We understand that every movement has an origin, a destination, and a specific set of requirements connecting them. Our role is to provide the visibility, planning, and execution necessary to bridge that gap reliably.
@@ -55,7 +55,7 @@ export default function AboutPage() {
                   We do not believe in unnecessarily complex supply-chain terminology. We believe in clear communication and responsible execution. 
                 </p>
                 <p>
-                  Whether it is coordinating a single road freight shipment or structuring a multi-leg distribution requirement, we approach every task with the same commitment to operational clarity.
+                  Whether it is coordinating a single ocean freight shipment from China or structuring a multi-leg international distribution requirement to Indonesia, we approach every task with the same commitment to operational clarity.
                 </p>
               </div>
             </div>
@@ -73,7 +73,7 @@ export default function AboutPage() {
               <div className="absolute top-0 right-0 w-32 h-32 bg-[#F0F9FF] rounded-bl-full opacity-50" aria-hidden="true" />
               <SectionLabel variant="cyan" className="mb-6">OUR MISSION</SectionLabel>
               <p className="text-2xl md:text-3xl text-[#0F172A] leading-relaxed font-medium relative z-10" style={{ fontFamily: 'var(--font-syne)' }}>
-                &quot;To support businesses through practical, dependable and well-coordinated logistics solutions.&quot;
+                &quot;To support businesses through practical, dependable and well-coordinated international freight forwarding solutions.&quot;
               </p>
             </div>
 
@@ -82,7 +82,7 @@ export default function AboutPage() {
                <div className="absolute top-0 right-0 w-32 h-32 bg-[#0A2438] rounded-bl-full opacity-50" aria-hidden="true" />
               <SectionLabel variant="light" className="mb-6">OUR VISION</SectionLabel>
               <p className="text-2xl md:text-3xl text-white leading-relaxed font-medium relative z-10" style={{ fontFamily: 'var(--font-syne)' }}>
-                &quot;To build a logistics brand recognized for clarity, responsibility and dependable business relationships.&quot;
+                &quot;To build an international logistics brand recognized for cross-border clarity, responsibility and dependable global business relationships.&quot;
               </p>
             </div>
             

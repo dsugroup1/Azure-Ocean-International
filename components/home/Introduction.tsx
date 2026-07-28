@@ -21,11 +21,11 @@ export default function Introduction() {
               className="text-4xl md:text-5xl font-display uppercase tracking-tight text-[#0F172A] leading-[1.1] mb-8"
               style={{ fontFamily: 'var(--font-syne)' }}
             >
-              Logistics is about more than movement. It&apos;s about keeping business connected.
+              Logistics is about more than movement. It&apos;s about keeping global business connected.
             </h2>
             
             <p className="text-lg text-slate-600 leading-relaxed mb-10">
-              Based in New Delhi, Azure Ocean International approaches logistics with a focus on coordination, communication and practical transportation solutions for business requirements.
+              Based in New Delhi with strong connectivity across China, Hong Kong, and Indonesia, Azure Ocean International approaches global logistics with a focus on reliable forwarding, cross-border coordination, and practical international transportation solutions.
             </p>
             
             <CTAButton href="/about" variant="primary" showArrow>
@@ -56,31 +56,21 @@ export default function Introduction() {
                 aria-hidden="true"
               />
               
-              {/* Diagonal routes */}
-              <svg 
-                className="absolute inset-0 w-full h-full opacity-30" 
-                viewBox="0 0 400 400" 
-                fill="none" 
-                xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="xMidYMid slice"
+              {/* Glowing Globe Image */}
+              <div 
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60 mix-blend-screen"
+                style={{ backgroundImage: `url('/images/intro-globe.png')` }}
                 aria-hidden="true"
-              >
-                <path d="M0 400 L400 0" stroke="#22D3EE" strokeWidth="1" strokeDasharray="4 4"/>
-                <path d="M-100 400 L300 -100" stroke="#0284C7" strokeWidth="1"/>
-                <path d="M100 500 L500 100" stroke="#0284C7" strokeWidth="1"/>
-                {/* Connecting nodes */}
-                <circle cx="200" cy="200" r="4" fill="#22D3EE" />
-                <circle cx="100" cy="300" r="3" fill="#0EA5E9" />
-                <circle cx="300" cy="100" r="3" fill="#0EA5E9" />
-              </svg>
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#061826] via-transparent to-transparent opacity-90" aria-hidden="true" />
               
               {/* Overlay text / badge */}
               <div className="absolute bottom-8 left-8 right-8 glass p-6 rounded-sm border-l-2 border-l-[#22D3EE]">
                 <p className="text-white text-sm font-medium tracking-wide uppercase">
-                  Coordinated Freight Movement
+                  Global Freight Forwarding
                 </p>
                 <p className="text-slate-400 text-xs mt-2">
-                  Structured transportation logistics from requirement to destination.
+                  Structured cross-border logistics from origin to destination.
                 </p>
               </div>
             </div>

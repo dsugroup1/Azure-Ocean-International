@@ -4,7 +4,7 @@ import MovementStatement from '@/components/home/MovementStatement';
 import SolutionsShowcase from '@/components/home/SolutionsShowcase';
 import Process from '@/components/home/Process';
 import WhyAzureOcean from '@/components/home/WhyAzureOcean';
-import IndiaConnectivity from '@/components/home/IndiaConnectivity';
+import GlobalConnectivity from '@/components/home/GlobalConnectivity';
 import IndustriesPreview from '@/components/home/IndustriesPreview';
 import VisualBreak from '@/components/home/VisualBreak';
 import QuoteCTA from '@/components/home/QuoteCTA';
@@ -18,7 +18,7 @@ export default function Home() {
       <SolutionsShowcase />
       <Process />
       <WhyAzureOcean />
-      <IndiaConnectivity />
+      <GlobalConnectivity />
       <IndustriesPreview />
       <VisualBreak />
       <QuoteCTA />

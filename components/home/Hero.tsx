@@ -29,22 +29,17 @@ export default function Hero() {
       aria-label="Homepage hero"
     >
       {/* ── Background ── */}
-      {/* Deep navy gradient base */}
+      {/* ── Background ── */}
       <div
-        className="absolute inset-0"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          background: `
-            linear-gradient(
-              135deg,
-              #020D14 0%,
-              #061826 35%,
-              #0A2438 60%,
-              #075985 100%
-            )
-          `,
+          backgroundImage: `url('/images/hero-bg.png')`,
         }}
         aria-hidden="true"
       />
+      {/* Gradient overlays to maintain text legibility */}
+      <div className="absolute inset-0 bg-[#020D14]/70 mix-blend-multiply" aria-hidden="true" />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#020D14] via-[#020D14]/50 to-transparent" aria-hidden="true" />
 
       {/* Grid overlay */}
       <div
@@ -114,7 +109,7 @@ export default function Hero() {
           <div className="flex items-center gap-3 mb-8">
             <span className="h-px w-8 bg-[#22D3EE]" aria-hidden="true" />
             <span className="text-xs tracking-[0.3em] uppercase text-[#22D3EE]/80 font-medium">
-              LOGISTICS • FREIGHT • SUPPLY CHAIN
+              GLOBAL FREIGHT • CROSS-BORDER • LOGISTICS
             </span>
           </div>
 
@@ -138,8 +133,8 @@ export default function Hero() {
 
           {/* Supporting copy */}
           <p className="mt-10 text-lg md:text-xl text-slate-300 leading-relaxed max-w-2xl">
-            Azure Ocean International provides logistics-focused solutions designed around the
-            movement, coordination and transportation needs of modern businesses.
+            Azure Ocean International provides international freight forwarding solutions designed around the
+            global movement, cross-border coordination, and complex transportation needs of modern businesses.
           </p>
 
           {/* CTAs */}
@@ -182,22 +177,22 @@ export default function Hero() {
         <div className="ticker-wrapper">
           <div className="ticker-track">
             {[
-              'ROAD FREIGHT',
-              'FREIGHT COORDINATION',
-              'WAREHOUSING',
-              'DISTRIBUTION',
-              'SUPPLY CHAIN',
-              'B2B LOGISTICS',
-              'LAST-MILE',
-              'BUSINESS LOGISTICS',
-              'ROAD FREIGHT',
-              'FREIGHT COORDINATION',
-              'WAREHOUSING',
-              'DISTRIBUTION',
-              'SUPPLY CHAIN',
-              'B2B LOGISTICS',
-              'LAST-MILE',
-              'BUSINESS LOGISTICS',
+              'OCEAN & AIR FREIGHT',
+              'CUSTOMS CLEARANCE',
+              'CROSS-BORDER WAREHOUSING',
+              'GLOBAL SUPPLY CHAIN',
+              'TRADE LOGISTICS',
+              'PORT-TO-DOOR',
+              'INTERNATIONAL FREIGHT',
+              'CROSS-BORDER',
+              'OCEAN & AIR FREIGHT',
+              'CUSTOMS CLEARANCE',
+              'CROSS-BORDER WAREHOUSING',
+              'GLOBAL SUPPLY CHAIN',
+              'TRADE LOGISTICS',
+              'PORT-TO-DOOR',
+              'INTERNATIONAL FREIGHT',
+              'CROSS-BORDER',
             ].map((item, i) => (
               <span
                 key={i}

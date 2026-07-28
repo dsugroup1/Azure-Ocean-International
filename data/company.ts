@@ -13,9 +13,9 @@ export const company: CompanyInfo = {
   name: 'Azure Ocean International',
   shortName: 'Azure Ocean',
   legalName: 'Azure Ocean International',
-  tagline: 'Logistics for a connected world.',
+  tagline: 'Logistics for a connected global market.',
   description:
-    'Azure Ocean International is a New Delhi-based logistics company focused on transportation, freight coordination and supply-chain support for business requirements.',
+    'Azure Ocean International is a New Delhi-based freight forwarding company specializing in cross-border logistics, ocean and air freight, and strong trade lane connectivity with China, Hong Kong, and Indonesia.',
 
   address: {
     line1: '117/8, Deep Shikha Building',
